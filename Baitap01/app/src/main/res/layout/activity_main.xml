@@ -29,12 +29,12 @@
         android:id="@+id/textViewInfo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="228dp"
+        android:layout_marginBottom="196dp"
         android:text="Tên: Vương Đức Thoại\nLớp: CNTT02\nMSSV: 22110430"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintHorizontal_bias="0.519"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
@@ -85,10 +85,10 @@
         app:layout_anchorGravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.539"
+        app:layout_constraintHorizontal_bias="0.481"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/circleImageView"
-        app:layout_constraintVertical_bias="0.739" />
+        app:layout_constraintVertical_bias="0.712" />
 
     <com.google.android.material.appbar.MaterialToolbar
         android:id="@+id/toolbar"
