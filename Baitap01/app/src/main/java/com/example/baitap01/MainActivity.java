@@ -54,10 +54,16 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     private String reverseAndUpperCase(String str) {
-        StringBuilder reversed = new StringBuilder(str);
-        reversed.reverse();
-        return reversed.toString().toUpperCase();
+        String[] words = str.split(" ");
+
+        StringBuilder reversed = new StringBuilder();
+        for (int i = words.length - 1; i >= 0; i--) {
+            reversed.append(words[i]).append(" ");
+        }
+
+        return reversed.toString().trim().toUpperCase();
     }
+
 
     private ArrayList<Integer> generateRandomNumbers(int size) {
         ArrayList<Integer> randomNumbers = new ArrayList<>();
